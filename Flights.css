@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #beadade2;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    font-size: 20px
+}
+
+/* .right {
+    float: right;
+    font-size: 20px;
+    
+    
+} */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    container: 20px;
+    background: url(images/hero-background.jpg)
+}
+
+.navbar a {
+    display: block;
+    color: rgb(19, 2, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    background: url(images/hero-background.jpg);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(images/hero-background.jpg);
+    padding: 20px;
+}
+
+.foter {
+    background: url(images/footer.png) no-repeat;
+    display: flex;
+
+    background-size: cover;
+
+
+}
+
+.logo {
+    color: black;
+    font-weight: 10px;
+    font-size: 40px;
+    margin-bottom: 200px;
+}
+
+.foter ul {
+    padding: 50px;
+    list-style: none;
+
+}
+
+.foter li {
+    padding-bottom: 20px;
+}
+
+.submite {
+    color: black;
+    padding: 6px 38px;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+.Quiq {
+    font-size: 30PX;
+    font-weight: 300PX;
+}
+
+.Mylog {
+
+    text-align: center;
+    margin-top: -100PX;
+}
+
+/* .Flights {
+    background-color: #F4F5E4; */
+
+
+
+.fdescription h1 {
+    text-align: center;
+    color: black;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.Tous {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Paris {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 40PX;
+    height: 300PX;
+}
+
+.par1 {
+    margin-left: 40px;
+}
+
+#londan {
+    width: 300PX;
+    height: 300PX;
+    margin-top: 20PX;
+    margin-left: 140PX;
+}
+
+.par2 h3 {
+
+    margin-left: 200px;
+}
+
+.par2 p {
+    margin-left: 150px;
+}
+
+#Athens {
+    width: 300PX;
+    height: 300PX;
+    margin-top: 20PX;
+    margin-left: 100px;
+}
+
+.par3 h3 {
+
+    margin-left: 200px;
+}
+
+.par3 p {
+    margin-left: 100px;
+}
+
+.Tous2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#aswan {
+    width: 300PX;
+    height: 300PX;
+    margin-left: 40PX;
+    margin-top: 40px;
+    margin-bottom: 20PX;
+}
+
+.par4 {
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+#Amster {
+    width: 300PX;
+    height: 300PX;
+    margin-top: 40px;
+    margin-bottom: 20PX;
+
+
+}
+
+.par5 {
+
+    margin-left: 30px;
+    margin-top: 100px;
+
+}
+
+.Flights,.navbar{
+    background-color: #F1F0E8;
+}
+
+.Flights{
+    position: absolute;
+    
+}

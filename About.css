@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #beadade2;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    font-size: 20px
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    container: 20px;
+    background: url(images/hero-background.jpg)
+}
+
+.navbar a {
+    display: block;
+    color: rgb(19, 2, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    background: url(images/hero-background.jpg);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(images/hero-background.jpg);
+    padding: 20px;
+}
+
+.foter {
+    background: url(images/footer.png) no-repeat;
+    display: flex;
+
+    background-size: cover;
+
+
+}
+.logo {
+    color: black;
+    font-weight: 10px;
+    font-size: 40px;
+    margin-bottom: 200px;
+}
+
+.foter ul {
+    padding: 50px;
+    list-style: none;
+    
+}
+
+.foter li {
+    padding-bottom: 20px;
+}
+
+
+
+.Quiq {
+    font-size: 30PX;
+    font-weight: 300PX;
+}
+
+.Mylog {
+    
+    text-align: center;
+    margin-top: -100PX;
+}
+
+.submite {
+    color: black;
+    padding: 6px 38px;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.About {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(250, 241, 237);
+}
+
+    
+  .group1  {
+    flex: 1;
+    padding: 20px;
+  }
+  .group2 {
+    flex: 1;
+    padding: 20px;
+  }
+  .paragraphe h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .paragraphe p {
+    font-size: 16px;
+    line-height: 2;
+  }
+  .image2 img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+ .image1 img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  

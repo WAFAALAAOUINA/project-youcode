@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #beadade2;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    font-size: 20px
+}
+
+/* .right {
+    float: right;
+    font-size: 20px;
+    
+    
+} */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    container: 20px;
+    background: url(images/hero-background.jpg)
+}
+
+.navbar a {
+    display: block;
+    color: rgb(19, 2, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    background: url(images/hero-background.jpg);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(images/hero-background.jpg);
+    padding: 20px;
+}
+
+.foter {
+    background: url(images/footer.png) no-repeat;
+    display: flex;
+
+    background-size: cover;
+
+
+}
+
+.logo {
+    color: black;
+    font-weight: 10px;
+    font-size: 40px;
+    margin-bottom: 200px;
+}
+
+.foter ul {
+    padding: 50px;
+    list-style: none;
+
+}
+
+.foter li {
+    padding-bottom: 20px;
+}
+
+.submite {
+    color: black;
+    padding: 6px 38px;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+.Quiq {
+    font-size: 30PX;
+    font-weight: 300PX;
+}
+
+.Mylog {
+
+    text-align: center;
+    margin-top: -100PX;
+}
+.Tous{
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-around;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+
+

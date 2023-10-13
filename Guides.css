@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #beadade2;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    font-size: 20px
+}
+    
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    container: 20px;
+    background: url(images/hero-background.jpg)
+}
+
+.navbar a {
+    display: block;
+    color: rgb(19, 2, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    background: url(images/hero-background.jpg);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(images/hero-background.jpg);
+    padding: 20px;
+}
+
+.foter {
+    background: url(images/footer.png) no-repeat;
+    display: flex;
+
+    background-size: cover;
+}
+
+.submite {
+    color: black;
+    padding: 6px 38px;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.logo {
+    color: black;
+    font-weight: 10px;
+    font-size: 40px;
+    margin-bottom: 200px;
+}
+
+.foter ul {
+    padding: 50px;
+    list-style: none;
+
+}
+
+.foter li {
+    padding-bottom: 20px;
+}
+
+
+
+.Quiq {
+    font-size: 30PX;
+    font-weight: 300PX;
+}
+
+.Mylog {
+
+    text-align: center;
+    margin-top: -100PX;
+}
+
+.Gdescription h1 {
+
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.Tous {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+
+}
+
+.group1 {
+
+    border: 2px solid #000;
+    /* Définit une bordure de 2px solide noire autour de la div */
+    width: 300px;
+    height: 400px;
+    margin-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.group1:hover {
+    background-color: rgb(133, 131, 120);
+    border: none; 
+
+}
+
+#Muench {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+}
+
+.par1 p {
+    line-height: 2;
+    text-align: center;
+
+}
+
+
+.group2 {
+
+    border: 2px solid #000;
+    width: 300px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.group2:hover {
+    background-color: rgb(133, 131, 120);
+    border: none;
+}
+
+#lencuchova {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* Masquez les parties de l'image en dehors du cercle */
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.par2 p {
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 400px;
+
+}
+
+.group3 {
+
+    border: 2px solid #000;
+    /* Définit une bordure de 2px solide noire autour de la div */
+    width: 300px;
+    height: 400px;
+    margin-right: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.group3:hover {
+    background-color: rgb(133, 131, 120);
+    border: none;
+}
+
+#bc {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.par3 p {
+    line-height: 30px;
+    text-align: center;
+
+}
